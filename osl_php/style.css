@@ -1,0 +1,55 @@
+.container{
+    margin-left: 20px;
+
+}
+.sec_container{
+    margin-left: 20px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    height: 80px;
+    text-align:left;
+    width:auto;
+}
+.submain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.img_container{
+    padding-left: 100px;
+}
+h2{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+h3{
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+}
+.form_container button{
+    background-color: slateblue;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 5px 20px 5px 20px;
+}
+.form_container input{
+    border: 5px solid rgb(212, 201, 201);
+}
+.back{
+    height: 500px;
+    background-image: url('images/back.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.back h1{
+    font-size: 80px;
+    text-align: center;
+}
